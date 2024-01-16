@@ -5,17 +5,366 @@
 /*=========google font link*/
 
 /*===========Universal styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Mulish", sans-serif;
 }
-.uni{
-    border-radius: 16px;
+.uni-1 {
+  margin: 0 auto;
 }
-.text-1{
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
+
+.text-1 {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
 }
-i{
-  font-size: 200px;
+
+/* ========= Header-section */
+header {
+  width: 1170px;
 }
+nav {
+  width: 1170px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 30%;
+}
+.logo img {
+}
+.logo h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #131318;
+}
+.logo span {
+  color: #ff5400;
+}
+.bars {
+  display: none;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+}
+.navigation ul {
+  display: flex;
+}
+.navigation ul li {
+  list-style: none;
+  margin-left: 40px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #424247;
+}
+.navigation ul li :hover {
+  color: #ff5400;
+  font-weight: 700;
+}
+.active {
+  color: #ff5400 !important;
+  font-weight: 700 !important;
+}
+.banner-section {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/banner.png);
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text {
+  text-align: center;
+}
+.banner-text h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner-text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 24px;
+  margin-bottom: 50px;
+  width: 600px;
+}
+
+.selection-bar {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  height: 85px;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.same-sel {
+  position: relative;
+}
+.same-sel input {
+  padding: 20px 20px;
+  border-radius: 8px;
+  border: 0;
+}
+.same-sel input::placeholder {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+}
+.same-sel i {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.sel-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 20px;
+  border-radius: 8px;
+  border: 0;
+  background: #ff5400;
+}
+.sel-btn p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sel-btn i {
+  color: #fff;
+  font-size: 16px;
+}
+/* ========= Header-section  end*/
+/* ========= main-section*/
+
+main {
+  margin: 0 auto;
+  width: 1170px;
+}
+section {
+}
+.popular-sec {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.popular-text {
+  width: 50%;
+}
+.popular-text h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.popular-text p {
+}
+.pp-1 {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 45px 0;
+}
+.pp-2 {
+  padding: 16px 0px;
+}
+.pp-3 {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 45px 0;
+}
+.popular-text ul {
+  width: 400px;
+  padding-left: 25px;
+}
+.popular-text li {
+}
+.popular-text li p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.popular-text button {
+  padding: 15px 35px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+}
+.popular-banner {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.popular-banner img {
+}
+
+/* Choose Your Destination ======================== */
+.desti-sec {
+  margin-bottom: 100px;
+}
+.desti-text {
+  min-width: 643px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desti-text h2 {
+  color: #131318;
+
+  font-size: 40px;
+  font-weight: 800;
+}
+.desti-text p {
+  margin-bottom: 50px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  width: 631px;
+  text-align: center;
+}
+
+.places {
+}
+.place-img {
+  position: relative;
+}
+.place-img img {
+  width: 100%;
+}
+.place-img p {
+  position: absolute;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+  z-index: 10;
+  top: 50%;
+}
+.img-pad {
+  left: 40%;
+}
+.img-pad-2 {
+  left: 34%;
+}
+.img-pad-3 {
+  left: 30%;
+}
+.img-pad-4 {
+  left: 40%;
+}
+.img-pad-5 {
+  left: 35%;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.row3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Choose Your Destination============= end=========== */
+/* why us section ======================== */
+.why-us-sec {
+}
+.us-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.us-texts h2 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.us-texts p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  width: 615px;
+  margin-bottom: 50px;
+}
+.us-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px 18px;
+}
+.us-card {
+  width: 573px;
+  height: 284px;
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.us-card:nth-child(2) {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.us-card:nth-child(3) {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.card-component {
+  padding: 32px;
+}
+.us-card img {
+  padding-bottom: 32px;
+}
+.us-card h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.us-card p {
+  color: #5a5a5d;
+  font-size: 16px;
+}
+/* ========= main-section  end*/
