@@ -306,20 +306,23 @@ section {
 /* why us section ======================== */
 .why-us-sec {
 }
-.us-texts {
+.us-texts,
+.dis-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
-.us-texts h2 {
+.us-texts h2,
+.dis-header h2 {
   color: #131318;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
 }
-.us-texts p {
+.us-texts p,
+.dis-header p {
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-family: Mulish;
@@ -367,4 +370,315 @@ section {
   color: #5a5a5d;
   font-size: 16px;
 }
-/* ========= main-section  end*/
+/*Discount section==============*/
+.discount {
+  margin-top: 100px;
+}
+.dis-header h2 {
+}
+.dis-header p {
+}
+.discount-cards {
+}
+
+.card-body-1 {
+  background-image: url(../Images/dis-1.png);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.card-body-2 {
+  background-image: url(../Images/dis-2.png);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-body-3 {
+  background-image: url(../Images/dis-1.png);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.card-body-1,
+.card-body-2,
+.card-body-3 {
+  width: 1170px;
+  height: 500px;
+  margin-bottom: 25px;
+}
+.dis-card {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 50px;
+  width: 579px;
+  margin-right: 60px;
+}
+.dis-margin {
+  margin-right: 0;
+  margin-left: 60px;
+}
+.dis-card :nth-child(2) {
+  background: ;
+}
+.dis-icons {
+  display: flex;
+  gap: 30px;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+.icons i {
+  color: #ff5400;
+}
+.icons p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.dis-texts {
+}
+.dis-texts h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 25px;
+}
+.dis-texts p {
+  color: #5a5a5d;
+  font-size: 16px;
+  padding-top: 16px;
+}
+.dis-texts h4 {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  padding-top: 16px;
+  padding-bottom: 26px;
+}
+.dis-texts button {
+  border-radius: 8px;
+  background: #ff5400;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn {
+  padding: 15px 35px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+/*Discount section=======end=======*/
+/*Video section================*/
+.video-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.text-sec {
+}
+.text-sec h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  width: 450px;
+  padding-bottom: 25px;
+}
+.text-sec p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+.text-sec ul {
+}
+.text-sec ul li {
+}
+.text-sec ul li p {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+.btn-vid {
+  margin-top: 32px;
+  padding: 15px 35px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+}
+.video {
+  width: 610px;
+  height: 424px;
+}
+.video iframe {
+  border-radius: 16px;
+}
+/*Video section======end==========*/
+/*newsletter-sec====================*/
+.newsletter-sec {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  flex-shrink: 0;
+  padding: 40px;
+}
+.input-form h4 {
+  color: #131318;
+  font-size: 24px;
+  line-height: normal;
+  padding-bottom: 16px;
+}
+.input-form p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  width: 350px;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+}
+.input-form input {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.input-form button {
+  padding: 10px 20px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 8px;
+  background: #ff5400;
+}
+.news-img {
+  position: relative;
+}
+
+.news-img img {
+}
+.up-text {
+  position: absolute;
+  background: #ff5400;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  right: 5px;
+  bottom: 50px;
+  transform: rotate(-22deg);
+}
+.up-text p {
+  font-size: 24px;
+}
+.up-text h2 {
+  font-size: 32px;
+}
+/*newsletter-sec===========end========*/
+/* ========= main-section  end===*/
+/*footer section===================*/
+footer {
+  width: 100%;
+  height: 570px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.foot {
+  width: 1170px;
+  margin: 110px auto;
+}
+.foot p {
+  width: 770px;
+  text-align: center;
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 30px;
+}
+.bottom-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-title p {
+}
+.title {
+  display: inline-flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 110px;
+  margin-bottom: 15px;
+}
+.title h2 {
+  font-size: 32px;
+}
+.title span {
+  color: #ff5400;
+}
+.title img {
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.icon i {
+  color: #000;
+  font-size: 30px;
+}
+.bottom-text {
+	border-top: 1px solid rgba(19, 19, 24, 0.10);
+	padding-top: 60px;
+	margin-top: 60px;
+}
+.bottom-text p {
+}
+/*footer section=========end==========*/
